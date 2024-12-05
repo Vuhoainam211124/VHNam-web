@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.menutop{
+    width: 100%;
+    height: 30px;
+    background: #1e1f29;
+    display: flex;
+    justify-content: end;
+}
+/* hết menutop */
+
+.menumid{
+    width: 100%;
+    height: 100px;
+    background-color: #15161d;
+}
+.trai{
+    width: 30%;
+    float: left;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.giua{
+    width: 40%;
+    float: left;
+    padding-top: 60px;
+    position: relative;
+}
+.phai{
+    width: 30%;
+    float: right;
+    display: flex;
+    justify-content: end;
+}
+.giua input{
+    width: 350px;
+    height: 30px;
+    border-radius: 20px 0 0 20px ;
+    position: absolute;
+    top: 40px;
+    padding-left: 10px;    
+}
+.giua button {
+    width: 50px;
+    height: 34px;
+    border-radius: 0 20px 20px 0;
+    background-color: rgb(243, 36, 0);
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 365px;
+}
+.trai img{
+    height: 90px;
+}
+.giua .fa-shopping-bag{
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 430px;
+}
+.phai ul li{
+    display: inline-block;
+    padding-right: 15px;
+    padding-top: 12px;
+}
+.phai ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.phai ul li a:hover{
+    color: rgb(195, 27, 27);
+}
+/* hết menumid */
+
+.menubottom{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(9, 37, 77);
+    display: flex;
+    justify-content: center;
+}
+.container {
+    background-color: rgb(15, 34, 66);
+    height: 519px;
+    padding: 20px;
+    position: relative;
+}
+  .profile-info {
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  .profile-info img {
+    width: 150px;
+    height: 140px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  .profile-info h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  .profile-info p {
+    margin: 5px 0;
+  }
+.container button{
+    background-color: red;
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    top: 287px;
+    left: 740px;
+}
+.container button a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.container button a:hover{
+    color: rgb(171, 171, 171);
+}

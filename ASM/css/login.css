@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+body{
+    background-color: rgb(11, 46, 67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.tong{
+    width: 340px;
+    height: 370px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 40px 50px;
+}
+.tong h1{
+    font-size: 36px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.tong img{
+    height: 40px;
+    width: 60px;
+    position: absolute;
+    top: 152px;
+    left: 541px;
+}
+.tong .input-box{
+    width: 85%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 40px;
+    position: absolute;
+    right: -50px;
+    padding-left: 15px;
+    font-size: 17px;
+}
+.input-box input::placeholder{
+    color: black;
+}
+.input-box i{
+    position: absolute;
+    left: 3px;
+    top: 15px;
+    font-size: 25px;
+}
+.tong .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remember-forgot label input{
+    margin-right: 3px;
+}
+.remember-forgot a{
+    color: rgb(34, 34, 127);
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.tong .btn{
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    border: 1px solid black;
+    font-size: 16px;
+    font-weight: 650;
+}
+.tong .btn a{
+    color: #000;
+    text-decoration: none;
+}
+.tong .register-link{
+    text-align: center;
+}
+.register-link a{
+    color: rgb(34, 34, 127);
+    text-decoration: none;
+}
+.register-link a:hover{
+    text-decoration: underline;
+}
+
+
+
